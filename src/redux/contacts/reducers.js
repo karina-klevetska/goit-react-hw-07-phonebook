@@ -1,7 +1,6 @@
-import { createReducer } from '@reduxjs/toolkit'
+import { createReducer, createSlice } from '@reduxjs/toolkit'
 import { filterValue } from './actions'
 import { fetchContacts, addContact, deleteContact } from './operations'
-import { createSlice } from '@reduxjs/toolkit'
 
 // export const contactsList = createReducer([], {
 //   [addContact]: (state, { payload }) => [...state, payload],
